@@ -31,7 +31,8 @@ namespace Smu.VotedNews.Drivers
             return ContentShape("Parts_News", () => shapeHelper.Parts_News(
                 IsFeatured: news.IsFetured,
                 IsSticky: news.IsSticky,
-                Weight: news.Weight
+                Weight: news.Weight,
+                Id: news.ContentItem.Id
             ));
         }
 

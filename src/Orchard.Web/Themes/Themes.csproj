@@ -25,6 +25,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,6 +65,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="RGATheme\RGATheme.csproj" />
+    <Content Include="RGATheme\Scripts\bootstrap.js" />
+    <Content Include="RGATheme\Scripts\bootstrap.min.js" />
+    <Content Include="RGATheme\Scripts\npm.js" />
+    <Content Include="RGATheme\Scripts\Voting.js" />
+    <Content Include="RGATheme\Styles\bootstrap-theme.css" />
+    <Content Include="RGATheme\Styles\bootstrap-theme.min.css" />
+    <Content Include="RGATheme\Styles\bootstrap.css" />
+    <Content Include="RGATheme\Styles\bootstrap.min.css" />
+    <Content Include="RGATheme\Styles\Styles.css" />
+    <Content Include="RGATheme\Styles\Styles.min.css" />
+    <Content Include="RGATheme\Theme.png" />
+    <Content Include="RGATheme\Theme.txt" />
     <Content Include="TheAdmin\Scripts\admin.js" />
     <Content Include="TheAdmin\Styles\ie.css" />
     <Content Include="TheAdmin\Styles\ie7.css" />
@@ -171,6 +185,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Views\AdminCultureSelector.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RGATheme\Assets.json" />
+    <Content Include="RGATheme\Assets\Styles.less" />
+    <Content Include="RGATheme\Content\Web.config" />
+    <Content Include="RGATheme\Placement.info" />
+    <Content Include="RGATheme\Scripts\Web.config" />
+    <Content Include="RGATheme\Styles\Web.config" />
+    <Content Include="RGATheme\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RGATheme\Views\Parts\CommentForm.NewsStory.Summary.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RGATheme\Styles\bootstrap-theme.css.map" />
+    <Content Include="RGATheme\Styles\bootstrap.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RGATheme\fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RGATheme\Views\Layout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
